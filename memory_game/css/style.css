@@ -24,12 +24,15 @@ body {
 text-align: center;
 }
 a{
+
   font-family: "Raleway"; sans-serif;
   color: #FFFFFF;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 20px;
   margin :0px 20px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
 
 }
 header{
@@ -50,5 +53,35 @@ main{
 }
 img{
   margin :40px 8px 8px 0px ;
-  
+
+}
+a:hover{
+  border-bottom: 2px solid white;
+}
+footer{
+  padding: 20px ;
+  background-color: #0D2C40;
+  color:white;
+  font-size: 14px;
+  letter-spacing:.08;
+  font-weight: 500;
+}
+.copyright{
+  float:left;
+}
+.message{
+  float:right;
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.name{
+  color:#F15B31;
+  font-weight: 700;
+
 }
