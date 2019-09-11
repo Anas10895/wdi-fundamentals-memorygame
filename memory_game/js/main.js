@@ -39,10 +39,10 @@ function checkForMatch(){
 };
 
 function flipCard(cardId){
-	console.log(cards[cardId].suit )
-	console.log(cards[cardId].cardImage )
-console.log("User flipped " + cards[cardId].rank);
-	cardInPlay.push(cards[cardId].rank);
+  console.log("User flipped " + cards[cardId].rank)
+  console.log(cards[cardId].cardImage)
+  console.log(cards[cardId].suit)
+ cardInPlay.push(cards[cardId].rank);
 if (cardInPlay.length === 2){
 checkForMatch();
 }
