@@ -51,10 +51,10 @@ function flipCard(){
   console.log("User flipped " + cards[cardId].rank);
   console.log(cards[cardId].cardImage);
   console.log(cards[cardId].suit);
-	this.setAttribute('src' , cards[cardId].cardImage);
- cardInPlay.push(cards[cardId].rank);
+  this.setAttribute('src' , cards[cardId].cardImage);
+  cardInPlay.push(cards[cardId].rank);
 if (cardInPlay.length === 2){
-checkForMatch();
+  checkForMatch();
 }
 
 };
